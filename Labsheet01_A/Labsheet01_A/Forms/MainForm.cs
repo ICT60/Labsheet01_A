@@ -86,5 +86,17 @@ namespace Labsheet01_A
 
             return imageObject;
         }
+
+        private void frmMain_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            e.Cancel = true;
+            var dialogResult = MessageBox.Show("Hey~, outa here now?",
+                "Exit",
+                MessageBoxButtons.YesNo,
+                MessageBoxIcon.Warning,
+                MessageBoxDefaultButton.Button1);
+
+            e.Cancel = (dialogResult == DialogResult.No);
+        }
     }
 }
