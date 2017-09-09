@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{27AECD39-47D9-4C37-A7EA-12CDFA29297B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Labsheet01_A</RootNamespace>
+    <AssemblyName>Labsheet01_A</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\PictureDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\PictureDialog.Designer.cs">
+      <DependentUpon>PictureDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\PictureDialog.resx">
+      <DependentUpon>PictureDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\2.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\3.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\4.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\5.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\6.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\7.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\8.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\9.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\10.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\11.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\12.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\13.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\14.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\15.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\17.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\18.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\19.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\20.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\21.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\22.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\23.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\24.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\25.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\26.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\27.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\28.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\29.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\30.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\31.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\32.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\33.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\34.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\35.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\36.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\37.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\38.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\39.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\40.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\41.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Res\42.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
